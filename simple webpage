@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale =1.0">
+        <title> My Web Design</title>
+        <link rel="stylesheet" href="FinaleCSS.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+<link 
+  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
+  rel="stylesheet"  type='text/css'>
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href=''><h6 class="logo">ZIPPY</h6></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>  
+                        <li><a href="HomeFinaleHTML.html">HOME</a></li>
+                        <li><a href="ProjectFinaleHTML.html">PROJECTS</a></li>
+                        <li><a href="PricingFinaleHTML.html">PRICING</a></li>
+                        <li><a href="">TEAM</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+<div class="test-box">
+    <h2>One page promising to<br>fill all your needs!</h2>
+    <br>
+    <p> This is Photoshop's version of Lorem Ipsum.<br> Proin gravida nibh vel velit auctor aliquet.</p>
+    <br>
+    <a href="" class="hero-1-btn">LEARN MORE</a>
+    <a href="" class="hero-2-btn">LEARN MORE</a>
+    
+</div>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+</body>
+</html>
